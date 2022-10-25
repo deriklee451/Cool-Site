@@ -1,0 +1,61 @@
+.box{
+display: flex;
+text-align: center;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.cat{
+    width: 15rem;
+    height: 10rem;
+}
+
+.box-lorem{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    max-width: 30rem;
+    position: relative;
+    left: 15%;
+    
+}
+
+.box-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: stretch;
+    position: absolute;
+    top: 30%;
+    right:5%;
+
+}
+
+.title-one{
+    color: black;
+}
+
+
+
+h1 {
+    color: white;
+    text-align: center;
+
+}
+
+body {
+background-color: rgb(5, 5, 101);
+margin: 0;
+
+}
+
+main{
+    background-color: white;
+    margin: 0;
+    padding: 40px;
+}
+
+footer{
+    margin-top: 30;
+}
